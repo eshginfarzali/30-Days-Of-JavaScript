@@ -1,0 +1,1 @@
+console.log(`Hello to the world from Eshgin!`)
