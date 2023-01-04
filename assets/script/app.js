@@ -1,4 +1,6 @@
-console.log(`Hello to the world from Eshgin!`)
+
+
+/*console.log(`Hello to the world from Eshgin!`)
 
 console.log( typeof 'Eshgin') //string
 console.log( typeof 5) //number
@@ -30,7 +32,10 @@ console.log(gravity, boilingPoint, PI)*/
 
 
 // Variables can also be declaring in one line separated by comma, however I recommend to use a seperate line to make code more readble
+/*
 let name_1= 'Eshgin', 
     job = 'developer', 
     live = 'Baku'
 console.log(name_1, job, live)
+
+*/
