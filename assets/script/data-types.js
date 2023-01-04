@@ -372,7 +372,7 @@ console.log(country.substring(3))      // land
 
 */
 
-
+/*
 
 let string = '30 Days Of JavaScript'
 
@@ -386,5 +386,34 @@ console.log(firstName.split(''))  // Split to an array at each letter ->  ["A", 
 
 let countries = 'Finland, Sweden, Norway, Denmark, and Iceland'
 
-console.log(countries.split(','))  // split to any array at comma -> ["Finland", " Sweden", " Norway", " Denmark", " and Iceland"]
+console.log(countries.split(',').reverse() )  // split to any array at comma -> ["Finland", " Sweden", " Norway", " Denmark", " and Iceland"]
 console.log(countries.split(', ')) //  ["Finland", "Sweden", "Norway", "Denmark", "and Iceland"]
+
+
+*/
+/*
+let string = '   30 Days Of JavaScript   '
+
+console.log(string)
+console.log(string.trim(' '))
+
+let firstName = ' Asabeneh '
+
+console.log(firstName)
+console.log(firstName.trim())  // still removes spaces at the beginning and the end of the string
+*//*
+let string = '30 Days Of JavaScript'
+
+console.log(string.includes('Days'))     // true
+console.log(string.includes('days'))     // false - it is case sensitive!
+console.log(string.includes('Script'))   // true
+console.log(string.includes('script'))   // false
+console.log(string.includes('java'))     // false
+console.log(string.includes('Java'))     // true
+
+let country = 'Finland'
+
+console.log(country.includes('fin'))     // false
+console.log(country.includes('Fin'))     // true
+console.log(country.includes('land'))    // true
+console.log(country.includes('Land'))    // false*/
