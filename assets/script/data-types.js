@@ -417,3 +417,103 @@ console.log(country.includes('fin'))     // false
 console.log(country.includes('Fin'))     // true
 console.log(country.includes('land'))    // true
 console.log(country.includes('Land'))    // false*/
+
+/*
+
+let string = '30 Days Of JavaScript'
+console.log(string.replace('JavaScript', 'Python')) // 30 Days Of Python
+
+let country = 'Finland'
+console.log(country.replace('Fin', 'Noman'))       // Nomanland
+
+let name = 'Eshqin, hello. How are you Eshqin?'
+console.log(name.replaceAll('Eshqin','Farzali'))
+
+
+*/
+
+
+
+
+
+
+
+/*
+
+let string = '30 Days Of JavaScript'
+console.log(string.charAt(0))        // 3
+
+let lastIndex = string.length - 1
+console.log(string.charAt(lastIndex)) // t
+
+
+
+let name= 'Ali'
+console.log(name.charAt(2))
+
+let lastIndex_2=name.length - 1
+console.log(name.charAt(lastIndex_2))
+
+*/
+
+
+
+
+/*
+let string = '30 Days Of JavaScript'
+console.log(string.charCodeAt(3))        // D ASCII number is 68
+
+let lastIndex = string.length - 1
+console.log(string.charCodeAt(lastIndex)) // t ASCII is 116
+*/
+
+
+/*
+let string = '30 Days Of JavaScript'
+
+console.log(string.indexOf('D'))          // 3
+console.log(string.indexOf('Days'))       // 3
+console.log(string.indexOf('days'))       // -1
+console.log(string.indexOf('a'))          // 4
+console.log(string.indexOf('JavaScript')) // 11
+console.log(string.indexOf('Script'))     //15
+console.log(string.indexOf('script'))     // -1
+
+
+*/
+
+
+
+
+
+
+/*
+
+
+let string = 'I love JavaScript. If you do not love JavaScript what else can you love.'
+
+console.log(string.lastIndexOf('love'))       // 67
+console.log(string.lastIndexOf('you'))        // 63
+console.log(string.lastIndexOf('JavaScript')) // 38
+
+*/
+/*
+let string = '30'
+console.log(string.concat("Days", "Of", "JavaScript")) // 30DaysOfJavaScript
+
+let country = 'Fin'
+console.log(country.concat("land")) // Finland
+
+*/
+
+let string = 'Love is the best to in this world'
+
+console.log(string.startsWith('Love'))   // true
+console.log(string.startsWith('love'))   // false
+console.log(string.startsWith('world'))  // false
+
+let country = 'Finland'
+
+console.log(country.startsWith('Fin'))   // true
+console.log(country.startsWith('fin'))   // false
+console.log(country.startsWith('land'))  //  false

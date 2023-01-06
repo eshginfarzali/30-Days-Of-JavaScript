@@ -39,3 +39,20 @@ let name_1= 'Eshgin',
 console.log(name_1, job, live)
 
 */
+
+let id = prompt ('enter product id:');
+if (id === '1') {
+  alert ('Available 10 pcs.');
+}
+else if (id === '2') {
+  alert ('Available 256 pcs.');
+ }
+else if (id === '3') {
+  alert ('Available 53 pcs.');
+ }
+  else if (id === '4') {
+  alert ('There are 3 available.');
+ }
+else {
+  alert ('Out of stock');
+} 
