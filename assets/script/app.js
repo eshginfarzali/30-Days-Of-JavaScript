@@ -39,6 +39,7 @@ let name_1= 'Eshgin',
 console.log(name_1, job, live)
 
 */
+/*
 
 let id = prompt ('enter product id:');
 if (id === '1') {
@@ -56,3 +57,4 @@ else if (id === '3') {
 else {
   alert ('Out of stock');
 } 
+*/

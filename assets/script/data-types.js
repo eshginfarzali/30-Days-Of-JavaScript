@@ -505,7 +505,7 @@ let country = 'Fin'
 console.log(country.concat("land")) // Finland
 
 */
-
+/*
 let string = 'Love is the best to in this world'
 
 console.log(string.startsWith('Love'))   // true
@@ -517,3 +517,14 @@ let country = 'Finland'
 console.log(country.startsWith('Fin'))   // true
 console.log(country.startsWith('fin'))   // false
 console.log(country.startsWith('land'))  //  false
+
+
+*/
+
+let n = +prompt()
+for(n%2==0) {
+    if(n=n/2)
+    console.log(n)
+    else()
+    console.log('sert dogru deyil')
+}
